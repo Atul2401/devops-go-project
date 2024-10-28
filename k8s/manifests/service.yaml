@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-web-app-service
+spec:
+  selector:
+    app: gi-web-app
+  ports:
+    - protocol: TCP
+      port: 8070
+      targetPort: 8070
+  type : ClusterIP
