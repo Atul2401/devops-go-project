@@ -9,12 +9,13 @@ pipeline {
                 echo "Checkout DONE below is the output from git log command"
                 git log
             }
-
         }
         stage('Second Setage') { 
             steps {
             echo 2nd stag
             }
+        }
         
     }
+}
 }
