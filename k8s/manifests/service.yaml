@@ -4,9 +4,10 @@ metadata:
   name: go-web-app-service
 spec:
   selector:
-    app: gi-web-app
+    app: go-web-app
+  type : ClusterIP
   ports:
     - protocol: TCP
       port: 8070
       targetPort: 8070
-  type : ClusterIP
+  
