@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Second Setage') { 
             steps {
-            echo 2nd stag
+            echo "2nd stage finished "
             }
         }
         
