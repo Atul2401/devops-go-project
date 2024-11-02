@@ -10,7 +10,7 @@ COPY . .
 
 RUN go build -o main .
 
-#final stage using destroless image
+#final stage using destroless imag
 
 FROM gcr.io/distroless/base
 
